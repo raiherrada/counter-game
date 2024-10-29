@@ -1,0 +1,94 @@
+* {
+    margin:0;
+}
+
+body {
+    background-image: url("basket.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    background: #3C905F;
+    width: 400px;
+    height: 260px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 25px 0px 40px 0px;
+    box-shadow: 8px 8px 0px 6px #9AD5B3;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 25px;
+}
+
+h3 {
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    margin-bottom: 20px;;
+}
+
+.guestscore, .homescore{
+    display: flex;
+    justify-content: center;
+    background: #080001;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+P{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.guest-btn, .home-btn{
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 3px #245639 solid;
+    color:#245639;
+    background: none;
+    gap:30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.guest{
+    margin-left: 40px;
+}
+
+.new-game-btn{
+    width: 100px;
+    height: 60px;
+    font-size: 15px;;
+    border-radius: 10px;
+    border: 3px #245639 solid;
+    color:#245639;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.new-game-btn:hover, .guest-btn:hover, .home-btn:hover{
+    cursor: pointer;
+    background: #183A26;
+    border: 3px 2E6035 solid;
+    color: white;
+}
+
